@@ -6,7 +6,7 @@
     <title>Islamic Prayer Times App</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
@@ -15,30 +15,60 @@
         header {
             background-color: #007BFF;
             color: white;
-            padding: 20px;
+            padding: 40px;
             text-align: center;
+            border-bottom: 5px solid #003366;
+        }
+        header h1 {
+            font-size: 3em;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
         }
         section {
-            padding: 20px;
+            padding: 30px;
             margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        section h2 {
             font-size: 2em;
+            color: #007BFF;
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         li {
-            padding: 10px;
+            padding: 15px;
             background-color: #eee;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        li:hover {
+            background-color: #ddd;
+        }
+        ol {
+            padding-left: 20px;
         }
         footer {
             text-align: center;
-            padding: 10px;
+            padding: 15px;
             background-color: #007BFF;
             color: white;
+            font-size: 1.2em;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -76,7 +106,7 @@
     </section>
 
     <footer>
-        <p>Project by <a href="https://github.com/mostafa19ashry" target="_blank" style="color: white;">Mostafa Ashry</a></p>
+        <p>Project by <a href="https://github.com/mostafa19ashry" target="_blank">Mostafa Ashry</a></p>
     </footer>
 
 </body>
